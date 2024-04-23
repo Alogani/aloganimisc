@@ -1,5 +1,5 @@
 import std/[math, parseutils]
-import mylib/math
+import ../mathsmisc
 
 type
     StorageSize* = distinct int
