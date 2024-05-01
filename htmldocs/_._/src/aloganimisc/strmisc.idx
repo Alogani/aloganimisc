@@ -1,0 +1,4 @@
+nimTitle	strmisc	_._/src/aloganimisc/strmisc.html	module src/aloganimisc/strmisc		0
+nim	head	_._/src/aloganimisc/strmisc.html#head,int,string	proc head(count: int; data: string): string		3
+nim	tail	_._/src/aloganimisc/strmisc.html#tail,int,string	proc tail(count: int; data: string): string		4
+nim	ternary	_._/src/aloganimisc/strmisc.html#ternary.t,bool,string,string	template ternary(predicate: bool; valueIfTrue: string; valueIfFalse = ""): string		16

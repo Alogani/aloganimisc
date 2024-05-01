@@ -1,0 +1,4 @@
+nimTitle	seqmisc	_._/src/aloganimisc/seqmisc.html	module src/aloganimisc/seqmisc		0
+nim	find_nth	_._/src/aloganimisc/seqmisc.html#find_nth,T,S,int	proc find_nth[T, S](a: T; item: S; nth: int): int		3
+nim	flatten	_._/src/aloganimisc/seqmisc.html#flatten,seq[seq[T]]	proc flatten[T](a: seq[seq[T]]): seq[T]		12
+nim	naturalSort	_._/src/aloganimisc/seqmisc.html#naturalSort,openArray[string]	proc naturalSort(l: openArray[string]): seq[string]		18

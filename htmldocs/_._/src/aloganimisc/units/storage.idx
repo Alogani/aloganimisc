@@ -1,0 +1,35 @@
+nimTitle	storage	_._/src/aloganimisc/units/storage.html	module src/aloganimisc/units/storage		0
+nim	StorageSize	_._/src/aloganimisc/units/storage.html#StorageSize	type StorageSize		5
+nim	None	_._/src/aloganimisc/units/storage.html#None	StorageUnit.None		7
+nim	B	_._/src/aloganimisc/units/storage.html#B	StorageUnit.B		7
+nim	kB	_._/src/aloganimisc/units/storage.html#kB	StorageUnit.kB		7
+nim	MB	_._/src/aloganimisc/units/storage.html#MB	StorageUnit.MB		7
+nim	GB	_._/src/aloganimisc/units/storage.html#GB	StorageUnit.GB		7
+nim	TB	_._/src/aloganimisc/units/storage.html#TB	StorageUnit.TB		7
+nim	StorageUnit	_._/src/aloganimisc/units/storage.html#StorageUnit	enum StorageUnit		7
+nim	intToStorage	_._/src/aloganimisc/units/storage.html#intToStorage.c,int	converter intToStorage(x: int): StorageSize		10
+nim	`*`	_._/src/aloganimisc/units/storage.html#*,StorageSize,int	proc `*`(x: StorageSize; y: int): StorageSize		13
+nim	`*`	_._/src/aloganimisc/units/storage.html#*,int,StorageSize	proc `*`(x: int; y: StorageSize): StorageSize		14
+nim	`+`	_._/src/aloganimisc/units/storage.html#+,StorageSize,StorageSize	proc `+`(x, y: StorageSize): StorageSize		15
+nim	`/`	_._/src/aloganimisc/units/storage.html#/,StorageSize,int	proc `/`(x: StorageSize; y: int): StorageSize		16
+nim	`/`	_._/src/aloganimisc/units/storage.html#/,StorageSize,StorageSize	proc `/`(x, y: StorageSize): float		17
+nim	`div`	_._/src/aloganimisc/units/storage.html#div,StorageSize,StorageSize	proc `div`(x, y: StorageSize): int		18
+nim	B	_._/src/aloganimisc/units/storage.html#B,int	proc B(size: int): StorageSize		20
+nim	kB	_._/src/aloganimisc/units/storage.html#kB,int	proc kB(size: int): StorageSize		21
+nim	MB	_._/src/aloganimisc/units/storage.html#MB,int	proc MB(size: int): StorageSize		22
+nim	GB	_._/src/aloganimisc/units/storage.html#GB,int	proc GB(size: int): StorageSize		23
+nim	TB	_._/src/aloganimisc/units/storage.html#TB,int	proc TB(size: int): StorageSize		24
+nim	B	_._/src/aloganimisc/units/storage.html#B,float	proc B(size: float): StorageSize		25
+nim	kB	_._/src/aloganimisc/units/storage.html#kB,float	proc kB(size: float): StorageSize		26
+nim	MB	_._/src/aloganimisc/units/storage.html#MB,float	proc MB(size: float): StorageSize		27
+nim	GB	_._/src/aloganimisc/units/storage.html#GB,float	proc GB(size: float): StorageSize		28
+nim	TB	_._/src/aloganimisc/units/storage.html#TB,float	proc TB(size: float): StorageSize		29
+nim	toString	_._/src/aloganimisc/units/storage.html#toString,StorageSize,StorageUnit,int,string	proc toString(size: StorageSize; inUnit: StorageUnit = None; signifiantDigits = 2;\n         suffix = "iB"; decimal = false): string		38
+nim	parseSize	_._/src/aloganimisc/units/storage.html#parseSize,string	proc parseSize(str: string; decimal = false): StorageSize		91
+nimgrp	B	_._/src/aloganimisc/units/storage.html#B-procs-all	proc		20
+nimgrp	/	_._/src/aloganimisc/units/storage.html#/-procs-all	proc		16
+nimgrp	Tb	_._/src/aloganimisc/units/storage.html#TB-procs-all	proc		24
+nimgrp	Mb	_._/src/aloganimisc/units/storage.html#MB-procs-all	proc		22
+nimgrp	*	_._/src/aloganimisc/units/storage.html#*-procs-all	proc		13
+nimgrp	Gb	_._/src/aloganimisc/units/storage.html#GB-procs-all	proc		23
+nimgrp	kb	_._/src/aloganimisc/units/storage.html#kB-procs-all	proc		21

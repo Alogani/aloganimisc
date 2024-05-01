@@ -1,0 +1,8 @@
+nimTitle	macrosmisc	_._/src/aloganimisc/macrosmisc.html	module src/aloganimisc/macrosmisc		0
+nim	newRefOf	_._/src/aloganimisc/macrosmisc.html#newRefOf,T	proc newRefOf[T](val: T): ref T		5
+nim	unref	_._/src/aloganimisc/macrosmisc.html#unref.t,typedesc[ref.T]	template unref[T](arg: typedesc[ref T]): untyped		9
+nim	forEachStmt	_._/src/aloganimisc/macrosmisc.html#forEachStmt.m,untyped,varargs[untyped]	macro forEachStmt(modifierMacro: untyped; argsAndBody: varargs[untyped]): untyped		13
+nim	expandFirst	_._/src/aloganimisc/macrosmisc.html#expandFirst.t,untyped,untyped	template expandFirst(macroOrTemplateCall, body: untyped): untyped		23
+nim	exportMacro	_._/src/aloganimisc/macrosmisc.html#exportMacro.t,untyped	template exportMacro(body: untyped)		29
+nim	mapRecursively	_._/src/aloganimisc/macrosmisc.html#mapRecursively,NimNode,proc(NimNode)	proc mapRecursively(node: NimNode; applyFn: proc (n: NimNode): (NimNode, bool)): NimNode		35
+nim	replaceRecursively	_._/src/aloganimisc/macrosmisc.html#replaceRecursively,NimNode,NimNode,NimNode	proc replaceRecursively(node, target, dest: NimNode): NimNode		44

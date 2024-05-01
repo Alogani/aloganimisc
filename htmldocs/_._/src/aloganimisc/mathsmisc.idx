@@ -1,0 +1,2 @@
+nimTitle	mathsmisc	_._/src/aloganimisc/mathsmisc.html	module src/aloganimisc/mathsmisc		0
+nim	rounddiv	_._/src/aloganimisc/mathsmisc.html#rounddiv,int,int	proc rounddiv(x, y: int): int		3

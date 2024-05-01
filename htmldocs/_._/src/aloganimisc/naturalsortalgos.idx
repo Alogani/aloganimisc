@@ -1,0 +1,10 @@
+nimTitle	naturalsortalgos	_._/src/aloganimisc/naturalsortalgos.html	module src/aloganimisc/naturalsortalgos		0
+nim	isDigit	_._/src/aloganimisc/naturalsortalgos.html#isDigit,Rune	proc isDigit(r: Rune): bool		13
+nim	toDigit	_._/src/aloganimisc/naturalsortalgos.html#toDigit,Rune	proc toDigit(r: Rune): int		17
+nim	naturalSort	_._/src/aloganimisc/naturalsortalgos.html#naturalSort,openArray[string]	proc naturalSort(l: openArray[string]): seq[string]		84
+nim	naturalSortIgnoreCase	_._/src/aloganimisc/naturalsortalgos.html#naturalSortIgnoreCase,openArray[string]	proc naturalSortIgnoreCase(l: openArray[string]): seq[string]		87
+nim	naturalSortImpl	_._/src/aloganimisc/naturalsortalgos.html#naturalSortImpl,openArray[seq[Rune]],bool	proc naturalSortImpl(l: openArray[seq[Rune]]; ignoreCase: bool): seq[seq[Rune]]		90
+nim	naturalSort	_._/src/aloganimisc/naturalsortalgos.html#naturalSort,openArray[seq[Rune]]	proc naturalSort(l: openArray[seq[Rune]]): seq[seq[Rune]]		115
+nim	naturalSortIgnoreCase	_._/src/aloganimisc/naturalsortalgos.html#naturalSortIgnoreCase,openArray[seq[Rune]]	proc naturalSortIgnoreCase(l: openArray[seq[Rune]]): seq[seq[Rune]]		118
+nimgrp	naturalsort	_._/src/aloganimisc/naturalsortalgos.html#naturalSort-procs-all	proc		84
+nimgrp	naturalsortignorecase	_._/src/aloganimisc/naturalsortalgos.html#naturalSortIgnoreCase-procs-all	proc		87

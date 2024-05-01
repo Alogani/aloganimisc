@@ -1,0 +1,9 @@
+nimTitle	fasttest	_._/src/aloganimisc/fasttest.html	module src/aloganimisc/fasttest		0
+nim	testing	_._/src/aloganimisc/fasttest.html#testing.t,untyped	template testing(body: untyped): untyped		5
+nim	runTest	_._/src/aloganimisc/fasttest.html#runTest.t,untyped	template runTest(body: untyped): untyped		19
+nim	runTest	_._/src/aloganimisc/fasttest.html#runTest.t,string,untyped	template runTest(name: string; body: untyped): untyped		22
+nim	runBench	_._/src/aloganimisc/fasttest.html#runBench.t,untyped	template runBench(body: untyped): untyped		33
+nim	runBench	_._/src/aloganimisc/fasttest.html#runBench.t,string,untyped	template runBench(name: string; body: untyped): untyped		36
+nim	timeIt	_._/src/aloganimisc/fasttest.html#timeIt.t,int,untyped	template timeIt(rep: int; body: untyped): untyped		66
+nimgrp	runtest	_._/src/aloganimisc/fasttest.html#runTest-templates-all	template		19
+nimgrp	runbench	_._/src/aloganimisc/fasttest.html#runBench-templates-all	template		33

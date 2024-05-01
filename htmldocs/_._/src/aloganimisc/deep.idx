@@ -1,0 +1,3 @@
+nimTitle	deep	_._/src/aloganimisc/deep.html	module src/aloganimisc/deep		0
+nim	deepEqual	_._/src/aloganimisc/deep.html#deepEqual,T,T	proc deepEqual[T](a, b: T): bool		37
+nim	deepCopy	_._/src/aloganimisc/deep.html#deepCopy,T,T	proc deepCopy[T](dest: var T; src: T)		85

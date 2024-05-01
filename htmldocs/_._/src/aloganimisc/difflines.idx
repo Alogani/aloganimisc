@@ -1,0 +1,8 @@
+nimTitle	difflines	_._/src/aloganimisc/difflines.html	module src/aloganimisc/difflines		0
+nim	Added	_._/src/aloganimisc/difflines.html#Added	DiffKind.Added		2
+nim	Deleted	_._/src/aloganimisc/difflines.html#Deleted	DiffKind.Deleted		2
+nim	Changed	_._/src/aloganimisc/difflines.html#Changed	DiffKind.Changed		2
+nim	DiffKind	_._/src/aloganimisc/difflines.html#DiffKind	enum DiffKind		2
+nim	LineDiff	_._/src/aloganimisc/difflines.html#LineDiff	object LineDiff		5
+nim	pretty	_._/src/aloganimisc/difflines.html#pretty,LineDiff	proc pretty(lineDiff: LineDiff): string		21
+nim	diffLines	_._/src/aloganimisc/difflines.html#diffLines,seq[string],seq[string]	proc diffLines(a, b: seq[string]): seq[LineDiff]		55
